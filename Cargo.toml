@@ -6,6 +6,12 @@ repository = "https://github.com/solidiquis/behemoth_simulator"
 description = """
 Asset simulator which produces telemetry for a configurable amount of channels at a configurable frequency."""
 
+[package.metadata.wix]
+upgrade-guid = "CA6CA4B3-08B2-46EC-A6B0-AE65E942E765"
+path-guid = "330F1448-C08A-43C3-AB01-7DD29C220A06"
+license = false
+eula = false
+
 [dependencies]
 anyhow = "1.0.99"
 clap = { version = "4.5.45", features = ["cargo", "derive"] }
