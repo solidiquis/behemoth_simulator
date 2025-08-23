@@ -1,5 +1,16 @@
 # Behemoth Simulator
 
+Stream telemetry to Sift with a configurable amount of components, channels per component, and frequency. Every message
+sent contains all channels, and each channel is of type `i64`.
+
+## Installation
+
+```sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/solidiquis/behemoth_simulator/releases/download/v0.1.0/behemoth_simulator-installer.sh | sh
+```
+
+## Usage
+
 ```
 Asset simulator which produces telemetry for a configurable amount of channels at a configurable frequency.
 
